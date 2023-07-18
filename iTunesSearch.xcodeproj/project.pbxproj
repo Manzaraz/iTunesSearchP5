@@ -22,6 +22,7 @@
 		18A6053723CFABDC002037CA /* StoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6053623CFABDC002037CA /* StoreItemController.swift */; };
 		61E9F4E52A661CAA00541CCE /* SearchScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9F4E42A661CAA00541CCE /* SearchScope.swift */; };
 		61E9F4E72A663E1000541CCE /* StoreItemTableViewDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9F4E62A663E1000541CCE /* StoreItemTableViewDiffableDataSource.swift */; };
+		61E9F4E92A66433100541CCE /* StoreItemCollectionViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9F4E82A66433100541CCE /* StoreItemCollectionViewSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		18A6053623CFABDC002037CA /* StoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemController.swift; sourceTree = "<group>"; };
 		61E9F4E42A661CAA00541CCE /* SearchScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScope.swift; sourceTree = "<group>"; };
 		61E9F4E62A663E1000541CCE /* StoreItemTableViewDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemTableViewDiffableDataSource.swift; sourceTree = "<group>"; };
+		61E9F4E82A66433100541CCE /* StoreItemCollectionViewSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemCollectionViewSectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				18A6052223CF9802002037CA /* Main.storyboard */,
 				61E9F4E42A661CAA00541CCE /* SearchScope.swift */,
 				61E9F4E62A663E1000541CCE /* StoreItemTableViewDiffableDataSource.swift */,
+				61E9F4E82A66433100541CCE /* StoreItemCollectionViewSectionHeader.swift */,
 			);
 			path = iTunesSearch;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				18A6053523CFABBB002037CA /* StoreItem.swift in Sources */,
 				1821478F23F602F3005B6EFE /* ItemCollectionViewCell.swift in Sources */,
 				1821479123F60428005B6EFE /* ItemDisplaying.swift in Sources */,
+				61E9F4E92A66433100541CCE /* StoreItemCollectionViewSectionHeader.swift in Sources */,
 				18A6053723CFABDC002037CA /* StoreItemController.swift in Sources */,
 				18A6053123CF9829002037CA /* StoreItemListTableViewController.swift in Sources */,
 				61E9F4E72A663E1000541CCE /* StoreItemTableViewDiffableDataSource.swift in Sources */,

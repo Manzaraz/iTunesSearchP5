@@ -8,15 +8,15 @@
 import UIKit
 
 enum SearchScope: CaseIterable {
-    case all, movies, music, books, apps
+    case all, movies, music, apps, books
 
     var title: String {
         switch self {
         case .all: return "All"
         case .movies: return "Movies"
         case .music: return "Music"
-        case .books: return "Books"
         case .apps: return "Apps"
+        case .books: return "Books"
         }
     }
 
@@ -25,9 +25,37 @@ enum SearchScope: CaseIterable {
         case .all: return "all"
         case .movies: return "movie"
         case .music: return "music"
-        case .books: return "ebook"
         case .apps: return "software"
+        case .books: return "ebook"
         }
     }
 }
 
+extension SearchScope {
+    var orthogonalScrollingBehavior: UICollectionLayoutSectionOrthogonalScrollingBehavior {
+        switch self {
+        case .all:
+            return .continuousGroupLeadingBoundary
+        default:
+            return .none
+        }
+    }
+    
+    var groupItemCount: Int {
+        switch self {
+        case .all:
+            return 1
+        default:
+            return 3
+        }
+    }
+    
+    var groupWidthDimension: NSCollectionLayoutDimension {
+        switch self {
+        case .all:
+            return .fractionalWidth(1/3)
+        default:
+            return .fractionalWidth(1.0)
+        }
+    }
+}
